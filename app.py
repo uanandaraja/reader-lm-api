@@ -17,7 +17,7 @@ SAMPLING_PARAMS = SamplingParams(
 )
 
 # Initialize LLM
-llm = LLM(model=MODEL_NAME, dtype='float16')
+llm = LLM(model=MODEL_NAME, dtype='float16', gpu_memory_utilization=0.95)
 
 
 class URLInput(BaseModel):
