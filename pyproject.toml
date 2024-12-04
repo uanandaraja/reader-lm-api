@@ -1,0 +1,13 @@
+[project]
+name = "reader-lm-api"
+version = "0.1.0"
+description = "trying to apified reader-lm for myself"
+requires-python = ">=3.9"
+dependencies = [
+  "fastapi>=0.104.0",
+  "uvicorn>=0.24.0",
+  "requests>=2.31.0",
+  "vllm>=0.2.0",
+  "pydantic>=2.0.0",
+  "triton == 2.2.0",
+]
